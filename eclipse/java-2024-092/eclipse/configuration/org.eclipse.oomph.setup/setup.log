@@ -1,0 +1,138 @@
+[2024-10-13 12:52:37] Executing bootstrap tasks
+[2024-10-13 12:52:37] OpenJDK Runtime Environment 17.0.12+7
+[2024-10-13 12:52:37] Product org.eclipse.products.epp.package.java.2024-09
+[2024-10-13 12:52:37] Bundle org.eclipse.oomph.setup 1.29.0.v20240723-0951, build=753, branch=f2cbf29cfb568e407c758a5a3130b2fb881526d0
+[2024-10-13 12:52:37] Bundle org.eclipse.oomph.setup.core 1.31.0.v20240420-0837, build=753, branch=f2cbf29cfb568e407c758a5a3130b2fb881526d0
+[2024-10-13 12:52:37] Bundle org.eclipse.oomph.setup.p2 1.21.0.v20240420-0837, build=753, branch=f2cbf29cfb568e407c758a5a3130b2fb881526d0
+[2024-10-13 12:52:37] Performing P2 Director (Eclipse IDE for Java Developers (2024-09) + JRE 23.0.0)
+[2024-10-13 12:52:37] Offline = false
+[2024-10-13 12:52:37] Mirrors = true
+[2024-10-13 12:52:37] Resolving 27 requirements from 4 repositories to C:\Users\amalj\eclipse\java-2024-092\eclipse
+[2024-10-13 12:52:37] Requirement org.eclipse.equinox.p2.iu:org.eclipse.justj.openjdk.hotspot.jre.full.feature.group (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux))(&(osgi.arch=aarch64)(osgi.os=macosx))(&(osgi.arch=ppc64le)(osgi.os=linux))(&(osgi.arch=x86_64)(osgi.os=linux))(&(osgi.arch=x86_64)(osgi.os=macosx))(&(osgi.arch=x86_64)(osgi.os=win32))))
+[2024-10-13 12:52:37] Requirement org.eclipse.equinox.p2.iu:epp.package.java [4.33.0,5.0.0) (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=aarch64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))))
+[2024-10-13 12:52:37] Requirement org.eclipse.equinox.p2.iu:org.eclipse.platform.feature.group [4.33.0,5.0.0)
+[2024-10-13 12:52:37] Requirement org.eclipse.equinox.p2.iu:org.eclipse.rcp.feature.group [4.33.0,5.0.0)
+[2024-10-13 12:52:37] Requirement org.eclipse.equinox.p2.iu:org.eclipse.buildship.feature.group
+[2024-10-13 12:52:37] Requirement org.eclipse.equinox.p2.iu:org.eclipse.eclemma.feature.feature.group
+[2024-10-13 12:52:37] Requirement org.eclipse.equinox.p2.iu:org.eclipse.egit.feature.group
+[2024-10-13 12:52:37] Requirement org.eclipse.equinox.p2.iu:org.eclipse.epp.mpc.feature.group
+[2024-10-13 12:52:37] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jdt.bcoview.feature.feature.group
+[2024-10-13 12:52:37] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jdt.feature.group
+[2024-10-13 12:52:37] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jgit.feature.group
+[2024-10-13 12:52:37] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.feature.feature.group
+[2024-10-13 12:52:37] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.lemminx.feature.feature.group
+[2024-10-13 12:52:37] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.logback.feature.feature.group
+[2024-10-13 12:52:37] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.commons.activity.feature.feature.group
+[2024-10-13 12:52:37] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.egit.feature.feature.group
+[2024-10-13 12:52:37] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.git.feature.feature.group
+[2024-10-13 12:52:37] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.github.feature.feature.group
+[2024-10-13 12:52:37] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.ide.feature.feature.group
+[2024-10-13 12:52:37] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.jdt.feature.feature.group
+[2024-10-13 12:52:37] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.jenkins.feature.feature.group
+[2024-10-13 12:52:37] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.reviews.feature.feature.group
+[2024-10-13 12:52:37] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.wikitext.feature.feature.group
+[2024-10-13 12:52:37] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tips.feature.feature.group
+[2024-10-13 12:52:37] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tm.terminal.feature.feature.group
+[2024-10-13 12:52:37] Requirement org.eclipse.equinox.p2.iu:org.eclipse.wildwebdeveloper.xml.feature.feature.group
+[2024-10-13 12:52:37] Requirement org.eclipse.equinox.p2.iu:org.eclipse.oomph.setup.feature.group
+[2024-10-13 12:52:37] Repository https://download.eclipse.org/justj/jres/23/updates/release/latest
+[2024-10-13 12:52:37] Repository https://download.eclipse.org/technology/epp/packages/2024-09/202409051200
+[2024-10-13 12:52:37] Repository https://download.eclipse.org/releases/2024-09/202409111000
+[2024-10-13 12:52:37] Repository https://download.eclipse.org/oomph/updates/milestone/latest
+[2024-10-13 12:52:37] ERROR: org.eclipse.equinox.p2.transport.ecf code=1006 Unknown Host: https://download.eclipse.org/releases/2024-09/202409111000/content.xml.xz
+java.net.UnknownHostException: download.eclipse.org
+  at java.base/java.net.InetAddress$CachedAddresses.get(Unknown Source)
+  at java.base/java.net.InetAddress.getAllByName0(Unknown Source)
+  at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+  at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+  at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+  at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:144)
+  at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:450)
+  at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+  at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+  at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+  at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+  at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+  at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+  at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
+  at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+  at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+  at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+  at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:116)
+  at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+  at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+  at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:106)
+  at org.eclipse.ecf.provider.filetransfer.httpclient5.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:251)
+  at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+  at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+[2024-10-13 12:52:37] 
+[2024-10-13 12:52:39] Executing bootstrap tasks
+[2024-10-13 12:52:39] OpenJDK Runtime Environment 17.0.12+7
+[2024-10-13 12:52:39] Product org.eclipse.products.epp.package.java.2024-09
+[2024-10-13 12:52:39] Bundle org.eclipse.oomph.setup 1.29.0.v20240723-0951, build=753, branch=f2cbf29cfb568e407c758a5a3130b2fb881526d0
+[2024-10-13 12:52:39] Bundle org.eclipse.oomph.setup.core 1.31.0.v20240420-0837, build=753, branch=f2cbf29cfb568e407c758a5a3130b2fb881526d0
+[2024-10-13 12:52:39] Bundle org.eclipse.oomph.setup.p2 1.21.0.v20240420-0837, build=753, branch=f2cbf29cfb568e407c758a5a3130b2fb881526d0
+[2024-10-13 12:52:39] Performing P2 Director (Eclipse IDE for Java Developers (2024-09) + JRE 23.0.0)
+[2024-10-13 12:52:39] Offline = false
+[2024-10-13 12:52:39] Mirrors = true
+[2024-10-13 12:52:39] Resolving 27 requirements from 4 repositories to C:\Users\amalj\eclipse\java-2024-092\eclipse
+[2024-10-13 12:52:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.justj.openjdk.hotspot.jre.full.feature.group (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux))(&(osgi.arch=aarch64)(osgi.os=macosx))(&(osgi.arch=ppc64le)(osgi.os=linux))(&(osgi.arch=x86_64)(osgi.os=linux))(&(osgi.arch=x86_64)(osgi.os=macosx))(&(osgi.arch=x86_64)(osgi.os=win32))))
+[2024-10-13 12:52:39] Requirement org.eclipse.equinox.p2.iu:epp.package.java [4.33.0,5.0.0) (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=aarch64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))))
+[2024-10-13 12:52:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.platform.feature.group [4.33.0,5.0.0)
+[2024-10-13 12:52:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.rcp.feature.group [4.33.0,5.0.0)
+[2024-10-13 12:52:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.buildship.feature.group
+[2024-10-13 12:52:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.eclemma.feature.feature.group
+[2024-10-13 12:52:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.egit.feature.group
+[2024-10-13 12:52:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.epp.mpc.feature.group
+[2024-10-13 12:52:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jdt.bcoview.feature.feature.group
+[2024-10-13 12:52:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jdt.feature.group
+[2024-10-13 12:52:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jgit.feature.group
+[2024-10-13 12:52:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.feature.feature.group
+[2024-10-13 12:52:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.lemminx.feature.feature.group
+[2024-10-13 12:52:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.logback.feature.feature.group
+[2024-10-13 12:52:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.commons.activity.feature.feature.group
+[2024-10-13 12:52:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.egit.feature.feature.group
+[2024-10-13 12:52:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.git.feature.feature.group
+[2024-10-13 12:52:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.github.feature.feature.group
+[2024-10-13 12:52:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.ide.feature.feature.group
+[2024-10-13 12:52:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.jdt.feature.feature.group
+[2024-10-13 12:52:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.jenkins.feature.feature.group
+[2024-10-13 12:52:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.reviews.feature.feature.group
+[2024-10-13 12:52:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.wikitext.feature.feature.group
+[2024-10-13 12:52:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tips.feature.feature.group
+[2024-10-13 12:52:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tm.terminal.feature.feature.group
+[2024-10-13 12:52:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.wildwebdeveloper.xml.feature.feature.group
+[2024-10-13 12:52:39] Requirement org.eclipse.equinox.p2.iu:org.eclipse.oomph.setup.feature.group
+[2024-10-13 12:52:39] Repository https://download.eclipse.org/justj/jres/23/updates/release/latest
+[2024-10-13 12:52:39] Repository https://download.eclipse.org/technology/epp/packages/2024-09/202409051200
+[2024-10-13 12:52:39] Repository https://download.eclipse.org/releases/2024-09/202409111000
+[2024-10-13 12:52:39] Repository https://download.eclipse.org/oomph/updates/milestone/latest
+[2024-10-13 12:52:39] ERROR: org.eclipse.equinox.p2.transport.ecf code=1006 Unknown Host: https://download.eclipse.org/releases/2024-09/202409111000/content.xml.xz
+java.net.UnknownHostException: download.eclipse.org
+  at java.base/java.net.InetAddress$CachedAddresses.get(Unknown Source)
+  at java.base/java.net.InetAddress.getAllByName0(Unknown Source)
+  at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+  at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+  at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+  at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:144)
+  at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:450)
+  at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+  at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+  at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+  at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+  at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+  at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+  at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
+  at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+  at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+  at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+  at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:116)
+  at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+  at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+  at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:106)
+  at org.eclipse.ecf.provider.filetransfer.httpclient5.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:251)
+  at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+  at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+[2024-10-13 12:52:39] 

@@ -1,0 +1,195 @@
+/* ============================================================
+   ORBIT WATCH — Component Styles
+   Magnetic Buttons, Glass Cards, and Animation Keyframes
+   ============================================================ */
+
+/* ── Magnetic Button ── */
+.magnetic-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-radius: var(--radius-full);
+  overflow: hidden;
+  will-change: transform;
+  isolation: isolate;
+}
+
+.magnetic-btn__inner {
+  position: relative;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  will-change: transform;
+}
+
+.magnetic-btn__glow {
+  position: absolute;
+  inset: -20px;
+  background: radial-gradient(circle, var(--nebula-glow), transparent 70%);
+  opacity: 0;
+  transition: opacity 0.4s;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Sizes */
+.magnetic-btn--sm {
+  padding: var(--space-2) var(--space-5);
+  font-size: var(--text-xs);
+}
+
+.magnetic-btn--md {
+  padding: var(--space-3) var(--space-6);
+  font-size: var(--text-sm);
+}
+
+.magnetic-btn--lg {
+  padding: var(--space-4) var(--space-8);
+  font-size: var(--text-sm);
+}
+
+/* Primary */
+.magnetic-btn--primary {
+  background: linear-gradient(135deg, var(--nebula-purple), var(--plasma-cyan));
+  color: var(--star-white);
+  border: none;
+}
+
+.magnetic-btn--primary::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, var(--nebula-violet), var(--plasma-light));
+  opacity: 0;
+  transition: opacity 0.4s;
+  z-index: 1;
+  border-radius: inherit;
+}
+
+.magnetic-btn--primary:hover::after {
+  opacity: 1;
+}
+
+/* Secondary */
+.magnetic-btn--secondary {
+  background: transparent;
+  color: var(--star-white);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(10px);
+}
+
+.magnetic-btn--secondary:hover {
+  border-color: var(--glass-border-hover);
+  background: var(--glass-bg);
+}
+
+/* Ghost */
+.magnetic-btn--ghost {
+  background: transparent;
+  color: var(--star-dim);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.magnetic-btn--ghost:hover {
+  color: var(--star-white);
+  border-color: rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+/* ── Glass Card ── */
+.glass-card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-lg);
+  transition: border-color var(--duration-base) var(--ease-out),
+              background var(--duration-base) var(--ease-out);
+}
+
+.glass-card:hover {
+  border-color: var(--glass-border-hover);
+  background: var(--glass-bg-hover);
+}
+
+/* ── Animations ── */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+@keyframes scrollPulse {
+  0%, 100% { opacity: 0.3; transform: scaleY(1); }
+  50% { opacity: 0.8; transform: scaleY(1.3); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* ── Responsive adjustments ── */
+@media (max-width: 1024px) {
+  :root {
+    --text-hero: clamp(2.5rem, 6vw, 7rem);
+    --text-7xl: 3.5rem;
+    --text-5xl: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --text-hero: clamp(2rem, 8vw, 4rem);
+    --text-7xl: 2.5rem;
+    --text-5xl: 2rem;
+    --text-3xl: 1.5rem;
+    --space-section: clamp(3rem, 8vh, 5rem);
+  }
+
+  .container {
+    padding: 0 var(--space-5);
+  }
+
+  .full-viewport {
+    min-height: 100vh;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --text-hero: clamp(1.8rem, 10vw, 3rem);
+    --text-7xl: 2rem;
+    --text-5xl: 1.75rem;
+  }
+}
+
+/* ── Input focus states ── */
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: var(--nebula-purple) !important;
+  box-shadow: 0 0 0 2px var(--nebula-glow);
+}
+
+/* ── Selection on dark bg ── */
+option {
+  background: var(--void-black);
+  color: var(--star-white);
+}

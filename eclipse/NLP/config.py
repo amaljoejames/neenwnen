@@ -1,0 +1,35 @@
+# Configuration settings for Hand Gesture Controller
+
+# Camera settings
+CAMERA_WIDTH = 640
+CAMERA_HEIGHT = 480
+CAMERA_FPS = 30
+
+# Hand detection settings
+MIN_DETECTION_CONFIDENCE = 0.7
+MIN_TRACKING_CONFIDENCE = 0.5
+MAX_NUM_HANDS = 1
+
+# Gesture control settings
+HOVER_THRESHOLD_SECONDS = 1.0
+SCROLL_THRESHOLD = 0.05
+SCROLL_COOLDOWN_SECONDS = 0.5
+SCROLL_AMOUNT = 5
+
+# Cursor settings
+SMOOTHING_FACTOR = 0.3
+CURSOR_SPEED_MULTIPLIER = 1.0
+
+# Display settings
+SHOW_LANDMARKS = True
+SHOW_INFO = True
+WINDOW_NAME = "Hand Gesture Controller"
+
+# Safety settings
+FAILSAFE_ENABLED = True
+FAILSAFE_CORNER_PIXELS = 100
+
+# Hover detection settings
+HOVER_STABILITY_THRESHOLD_X = 100
+HOVER_STABILITY_THRESHOLD_Y = 100
+POSITION_HISTORY_SIZE = 10
